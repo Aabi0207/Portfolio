@@ -8,41 +8,99 @@
 
 nav {
     width: 100vw;
-    /* height: 40px; */
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
 }
 
 nav ul{
     display: flex;
+    gap: 15px;
 }
 
 nav li{
-    padding: 10px;
-    font-size: 17px;
+    padding-top: 10px;
+    font-size: 18px;
     font-weight: 500;
-    color: rgb(250, 133, 0);
+    color: rgb(148, 62, 118);
 }
 
 nav li:hover{
     cursor: pointer;
-    color: rgb(235, 35, 0);
+    color: rgb(254, 0, 182);
 }
 
 nav span{
     padding: 10px 10px 10px 10px;
-    border: 2px solid rgb(250, 133, 0);
-    color: rgb(250, 133, 0);
+    border: 2px solid rgb(148, 62, 118);
+    color: rgb(148, 62, 118);
     border-radius: 30px;
     display: block;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 nav span:hover{
     cursor: pointer;
     color: white;
-    background-color: rgb(250, 133, 0);
+    background-color: rgb(148, 62, 118);
+    transition-duration: 0.5s;
 }
 
+.greet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.786);
+    border-radius: 30px;
+    padding: 30px 0px;
+}
+
+.big-bold{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.med{
+    font-size: 40px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.small{
+    font-size: 27px;
+    font-weight: lighter;
+    padding: 10px;
+    color: rgb(38, 38, 38) ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palegreen;
+}
+
+.greet img{
+    margin-top: 30px;
+    width: 280px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about-me{
+    
+}

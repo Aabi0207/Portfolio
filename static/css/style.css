@@ -12,7 +12,7 @@
 nav {
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     top: 0px;
     padding-top: 20px;
 }
@@ -20,6 +20,7 @@ nav {
 nav ul{
     display: flex;
     gap: 15px;
+    margin-left: 10vw;
 }
 
 nav li{
@@ -42,6 +43,7 @@ nav span{
     display: block;
     font-size: 18px;
     font-weight: 500;
+    margin-right: 10vw;
 }
 
 nav span:hover{
@@ -56,11 +58,11 @@ nav span:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     width: 80vw;
     background-color: rgba(255, 255, 255, 0.786);
     border-radius: 30px;
-    padding: 30px 0px;
+    padding: 100px 0px 30px 0px;
     box-sizing: border-box;
 }
 
@@ -83,11 +85,13 @@ nav span:hover{
     color: rgb(38, 38, 38) ;
 }
 
-body{
+.palegreen{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: palegreen;
+    position: relative;
+    padding-bottom: 300px;
 }
 
 .greet img{
@@ -115,4 +119,15 @@ body{
     font-weight: 400;
     font-size: 21px;
     text-align: center;
+}
+
+.skills{
+    width: 80vw;
+    height: 70vh;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid rgba(45, 45, 45, 0.375);
+    margin-left: 0px;
+    bottom: -380px;
+    background-color: white;
 }

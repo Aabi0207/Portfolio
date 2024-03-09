@@ -74,15 +74,15 @@ nav span:hover{
 
 .med{
     font-size: 40px;
-    font-weight: 200;
+    font-weight: 300;
     padding: 20px;
 }
 
 .small{
     font-size: 27px;
-    font-weight: lighter;
     padding: 10px;
-    color: rgb(38, 38, 38) ;
+    font-weight: 300;
+    color: rgb(0, 0, 0) ;
 }
 
 .palegreen{
@@ -92,6 +92,7 @@ nav span:hover{
     background-color: palegreen;
     position: relative;
     padding-bottom: 300px;
+    margin-bottom: 450px;
 }
 
 .greet img{
@@ -142,6 +143,7 @@ nav span:hover{
     border: 1px solid rgba(61, 61, 61, 0.221);
     box-sizing: border-box;
     padding: 30px;
+    border-radius: 15px;
 }
 
 .skill-slot img{
@@ -155,8 +157,8 @@ nav span:hover{
 
 .descr{
     font-size: 18px;
-    font-weight: 100;
-    color: rgb(59, 58, 58);
+    font-weight: 400;
+    color: rgb(48, 48, 48);
     text-align: center;
 }
 
@@ -172,5 +174,124 @@ nav span:hover{
     flex-direction: column;
     gap: 8px;
     font-size: 15px;
+}
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    gap: 8vw;
+}
+
+.card{
+    width: 20vw;
+    height: 25vh;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #141c3a;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    grid-template-rows: 10vh 10vh;
+    box-sizing: border-box;
+    padding-top: 5vh;
+}
+
+.project-name{
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blue{
+    background-color: #FFE3CA;
+    padding-top: 250px;
+}
+
+.card img{
+    position: absolute;
+    width: 20vw;
+    height: 25vh;
+    background-repeat: no-repeat;
+    z-index: 2;
+    top: 0px;
+    border-radius: 10px;
+}
+
+
+.card img:hover{
+    opacity: 0;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.visit-site a{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid #6e07f3;
+    color: white;
+}
+
+.card:hover .visit-site{
+    z-index: 5;
+}
+
+.card:hover img{
+    opacity: 0;
+    transition-duration: 0.7s;
+}
+
+.visit-site a:hover{
+    background-color: #6e07f3;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #FFE3CA;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: 30px;
+    margin: 15px;
+}
+
+footer img:hover{
+    color: blue;
+}
+
+footer svg{
+    width: 30px;
+    margin: 15px;
+}
+
+.hold-together{
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.597);
+    margin-top: 120px;
 }

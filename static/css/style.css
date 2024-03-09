@@ -122,12 +122,55 @@ nav span:hover{
 }
 
 .skills{
-    width: 80vw;
-    height: 70vh;
+    width: 81vw;
     position: absolute;
     border-radius: 15px;
     border: 1px solid rgba(45, 45, 45, 0.375);
     margin-left: 0px;
-    bottom: -380px;
+    bottom: -650px;
     background-color: white;
+    display: grid;
+    grid-template-columns: 27vw 27vw 27vw;
+    box-shadow: -2px 6px 5px #888888;
+}
+
+.skill-slot{
+    display: grid;
+    grid-template-rows: 130px 70px 150px 400px;
+    justify-items: center;
+    align-items: flex-start;
+    border: 1px solid rgba(61, 61, 61, 0.221);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.skill-slot img{
+    width: 100px;
+}
+
+.domain{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.descr{
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(59, 58, 58);
+    text-align: center;
+}
+
+.dev-tools{
+    color: blue;
+    font-size: 18px;
+    margin: 10px 0px;
+    display: block;
+}
+
+.tools ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+
 }

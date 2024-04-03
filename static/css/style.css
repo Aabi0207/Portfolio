@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -12,7 +16,7 @@
 nav {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     top: 0px;
     padding-top: 20px;
 }
@@ -37,8 +41,8 @@ nav li:hover{
 
 nav span{
     padding: 10px 10px 10px 10px;
-    border: 2px solid rgb(148, 62, 118);
-    color: rgb(148, 62, 118);
+    border: 2px solid #6e07f3;
+    color: #6e07f3;
     border-radius: 30px;
     display: block;
     font-size: 18px;
@@ -49,7 +53,7 @@ nav span{
 nav span:hover{
     cursor: pointer;
     color: white;
-    background-color: rgb(148, 62, 118);
+    background-color: #6e07f3;
     transition-duration: 0.5s;
 }
 
@@ -220,7 +224,7 @@ nav span:hover{
 }
 
 .blue{
-    background-color: #FFE3CA;
+    background-color: #40A2E3;
     padding-top: 250px;
 }
 
@@ -266,7 +270,7 @@ a{
 }
 
 footer{
-    background-color: #FFE3CA;
+    background-color: #40A2E3;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -292,6 +296,7 @@ footer svg{
     width: 80vw;
     margin-left: 10vw;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.597);
+    /* background-color: rgba(255, 255, 255, 0.597); */
+    background-color: #fff6e9b8;
     margin-top: 120px;
 }
